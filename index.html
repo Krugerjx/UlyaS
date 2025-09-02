@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Добавить контакт</title>
+<style>
+  body{font-family:system-ui;max-width:600px;margin:10vh auto;padding:0 16px;text-align:center}
+  a{font-size:18px}
+</style>
+<h1>Добавить контакт</h1>
+<p><a href="/contacts/inna.vcf" download="inna.vcf">Скачать vCard</a></p>
+<script>
+  setTimeout(()=>location.replace('/contacts/inna.vcf?v=2'), 300);
+</script>
